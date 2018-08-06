@@ -21,7 +21,7 @@
 
 <script>
 export default {
-  name: "AboutPage",
+  name: 'AboutPage',
   props: {
     items: Array,
   },

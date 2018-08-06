@@ -3,7 +3,7 @@
     <v-layout justify-center align-center :mt-5="$vuetify.breakpoint.smAndUp">
     <v-flex :xs4="$vuetify.breakpoint.smAndUp">
     <v-card raised>
-      <v-tabs grow color="indigo darken-2">
+      <v-tabs grow color="teal darken-3" slider-color="amber lighten-5">
         <v-tab
           ripple
         >
@@ -45,10 +45,10 @@
 
 <script>
 import AboutPage from './AboutPage.vue';
-import data from '../data.js';
+import data from '../data';
 
 export default {
-  name: "GavinCard",
+  name: 'GavinCard',
   components: {
     AboutPage,
   },
