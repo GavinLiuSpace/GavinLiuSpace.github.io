@@ -2,17 +2,17 @@
   <v-container fluid>
     <v-layout justify-center align-center :mt-5="$vuetify.breakpoint.smAndUp">
     <v-flex :xs4="$vuetify.breakpoint.smAndUp">
-    <v-card raised>
+    <v-card raised width="11.7cm">
       <v-tabs grow color="teal darken-3" slider-color="amber lighten-5">
         <v-tab
           ripple
         >
-          Home
+          About
         </v-tab>
         <v-tab
           ripple
         >
-          About
+          Links
         </v-tab>
         <v-tab
           ripple
@@ -24,9 +24,11 @@
             <h2>
               {{home.header}}
             </h2>
-            <br>
-            <p>
-              {{home.text}}
+            <p class="text-sm-left" style="text-indent: 20px">
+                {{home.text[0]}}
+            </p>
+            <p class="text-sm-left" style="text-indent: 20px">
+                {{home.text[1]}}
             </p>
           </v-card-text>
         </v-tab-item>

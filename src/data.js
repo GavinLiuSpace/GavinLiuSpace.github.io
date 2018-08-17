@@ -5,7 +5,10 @@ function goTo(page) {
 const data = {
   home: {
     header: 'Introduction',
-    text: 'Hello! I\'m Gavin Liu, a graduate student at Stanford University pursuing an MS degree in Aeronautics and Astronautics. I am a mechanical engineering BSE graduate passionate about space and immensely interested in launch vehicles; I aspire to reduce launch costs to enable easier access to space. I aim to complete a PhD to best prepare myself for impactful research in the space industry.',
+    text: [
+      'Hello! I\'m Gavin Liu, a graduate student at Stanford University pursuing an MS degree in Aeronautics and Astronautics.',
+      'I am a mechanical engineering BSE graduate passionate about space and immensely interested in launch vehicles; I aspire to reduce launch costs to enable easier access to space. I aim to complete a PhD to best prepare myself for impactful research in the space industry.',
+    ],
   },
   about: {
     items: [
