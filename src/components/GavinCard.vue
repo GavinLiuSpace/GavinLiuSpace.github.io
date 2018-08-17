@@ -24,10 +24,9 @@
             <h2>
               {{home.header}}
             </h2>
-            <p class="text-sm-left" style="text-indent: 20px">
+            <p>
                 {{home.text[0]}}
-            </p>
-            <p class="text-sm-left" style="text-indent: 20px">
+                <br>
                 {{home.text[1]}}
             </p>
           </v-card-text>
